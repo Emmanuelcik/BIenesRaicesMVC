@@ -1,0 +1,5 @@
+/vendor
+/node_modules
+*.img
+*.webp
+/includes/config/database.php

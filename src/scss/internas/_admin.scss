@@ -1,0 +1,40 @@
+.alerta{
+    padding: 1.5rem;
+    text-align: center;
+    color: $blanco;
+    font-weight: $bold;
+    text-transform: uppercase;
+    margin: 1rem 0;
+    &.error{
+        background-color: $rojo;
+    }
+    &.exito{
+        background-color: $verde
+    }
+}
+table.propi{
+    margin-top: 2rem;
+    border-spacing: 0;
+    width: 100%;
+    thead{
+        background-color: $verde;
+        th{
+            color: $blanco;
+            padding: 2rem;
+        } 
+    }
+    .imagen-tabla{
+        width: 10rem;
+    }
+}
+
+.doble{
+    display: flex;
+    justify-content: space-between;
+}
+.imagen-small{
+    width: 20rem;
+}
+.w-100{
+    width: 100%;
+}

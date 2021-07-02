@@ -1,0 +1,19 @@
+{
+    "name": "jesus/bienesraices",
+    "description": "Creando un proyecto con POO",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Emmanuel López",
+            "email": "jesusemm010@hotmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.5"
+    },
+    "autoload":{
+        "psr-4": {
+            "Model\\" : "./models"
+        }
+    }
+}
